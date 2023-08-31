@@ -1,7 +1,10 @@
 function hasTargetSum(array, target) {
   for (let i = 0; i < array.length; i++) {
-    for (let j = i + 1; j < array.length; j++) { // Start j from i + 1
+
+    for (let j = i + 1; j < array.length; j++) {
+
       if (target === array[i] + array[j]) {
+
         return true;
       }
     }
